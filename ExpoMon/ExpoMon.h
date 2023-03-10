@@ -89,18 +89,6 @@
 
 /***************************************************************************/
 
-#ifdef _WIN64
-    #pragma comment(lib, ".\\PluginSdk\\x64dbg.lib")
-    #pragma comment(lib, ".\\PluginSdk\\x64bridge.lib")
-    #pragma comment(lib, ".\\PluginSdk\\TitanEngine\\TitanEngine_x64.lib")
-#else
-    #pragma comment(lib, ".\\PluginSdk\\x32dbg.lib")
-    #pragma comment(lib, ".\\PluginSdk\\x32bridge.lib")
-    #pragma comment(lib, ".\\PluginSdk\\TitanEngine\\TitanEngine_x86.lib")
-#endif
-
-/***************************************************************************/
-
 namespace ExpoMon
 {
     /* Struct that contains several GUI handles (filled by plugsetup) */
